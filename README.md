@@ -1,5 +1,5 @@
 # Распознавание эмоций
-Датасет был сгенерирован с использованием [модели Stable Diffusion](https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0). Генерация изображений осуществлялась в google colab ([ноутбук](https://colab.research.google.com/drive/19e7sjE1R8dgxpzs7BU4_N6QO0UGVpAyp?usp=sharing)). Готовый датасет доступен [здесь](https://drive.google.com/drive/folders/1rg4Q_fYtbKaS6B2VZ6M0DcCgD9RLqqg5?usp=sharing).
+Датасет был сгенерирован с использованием [модели Stable Diffusion](https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0). Генерация изображений осуществлялась в google colab ([ноутбук](https://colab.research.google.com/drive/19e7sjE1R8dgxpzs7BU4_N6QO0UGVpAyp?usp=sharing)). Готовый датасет доступен [здесь](https://drive.google.com/drive/folders/1rg4Q_fYtbKaS6B2VZ6M0DcCgD9RLqqg5?usp=sharing). Для нахождения ключевых точек использовалась библиотека Mediapipe ([face landmarker model](https://developers.google.com/mediapipe/solutions/vision/face_landmarker#models)). Для классификации точек использовалась библиотека Scikit-learn.
 # Результаты
 <table>
   <tr>
